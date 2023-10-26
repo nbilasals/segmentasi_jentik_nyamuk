@@ -1,0 +1,14 @@
+/* static/style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

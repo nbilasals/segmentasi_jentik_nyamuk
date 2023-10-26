@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Processing Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Image Processing Result</h1>
+    <p>Number of Mosquito Larvae: {{ result }}</p>
+    <img src="{{ url_for('static', filename='processed_image.jpg') }}" alt="Processed Image">
+</body>
+</html>
